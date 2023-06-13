@@ -1,0 +1,156 @@
+*{
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+header{
+    font-size: 7vw;
+    font-weight: bold;
+    padding: 5vw;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+p{
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 3vw;
+}
+.Formulario{
+    margin-top: 2vw;
+    padding: 5vw 10vw;
+}
+.name{
+   width: 70vw; 
+   margin: 2vw 0 2vw;
+}
+.idade{
+    width: 70vw;
+    margin: 2vw 0 2vw;
+}
+.cpf{
+    width: 70vw;
+    margin: 2vw 0 2vw;
+}
+.email{
+    width: 70vw;
+    margin: 2vw 0 2vw;
+}
+.endereço{
+    width: 70vw;
+    margin: 2vw 0 2vw;
+}
+.CEP{
+    width: 70vw;
+    margin: 2vw 0 2vw;
+}
+.lista{
+    text-align: center;
+    border: 1px solid black;
+    width: 60vw;
+    height: 35vw;
+    border-radius: 15px;
+    margin: 2vw 0 2vw;
+}
+.primeiro{
+    padding: 2vw;
+}
+.segundo{
+    padding: 2vw;
+}
+.terceiro{
+    padding: 2vw;
+}
+.opção{
+    width: 70vw;
+    margin: 2vw 0 2vw;
+}
+.botão{
+    color: black;
+    height: 10vw;
+    width: 50vw;
+    border-radius: 16px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    header{
+        padding-top: 2vw;
+        height: 2vw;
+        font-size: 5vw;
+        font-weight: bold;
+        text-align: center;
+        background-color: black;
+        color: white;
+    }
+    .Formulario{
+        margin-top: 2vw;
+        padding: 2vw 10vw;
+    }
+    .endereço{
+        width: 65vw;
+        margin: 2vw 0 2vw;
+    }
+    .lista{
+        text-align: center;
+        border: 1px solid black;
+        width: 30vw;
+        height: 23vw;
+        border-radius: 15px;
+        margin: 2vw 0 2vw;
+    }
+    .botão{
+        color: black;
+        height: 5vw;
+        width: 30vw;
+        border-radius: 16px;
+    }
+}
+@media screen and (min-width: 992px) {
+    header{
+        padding-top: 1vw;
+        height: 1vw;
+        font-size: 4vw;
+        font-weight: bold;
+        text-align: center;
+        background-color: black;
+        color: white;
+    }
+    .Formulario{
+        text-align: center;
+        padding: 1vw;
+    }
+    .name{
+        width: 90vw; 
+        
+    }
+    .idade{
+        width: 93vw;
+        
+    }
+    .cpf{
+        width: 93vw;
+        
+    }
+    .email{    
+        width: 90vw;
+    
+    }
+    .endereço{
+        width: 90vw;
+    }
+    .CEP{
+        width: 90vw;
+    }
+    .lista{
+        text-align: center;
+        border: 1px solid black;
+        width: 30vw;
+        height: 20vw;
+        border-radius: 15px;
+        margin: 2vw 0 2vw;
+    }
+     .botão{
+        color: black;
+        height: 5vw;
+        width: 20vw;
+        border-radius: 16px;
+    }
+}

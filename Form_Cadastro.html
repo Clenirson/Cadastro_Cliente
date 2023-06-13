@@ -13,40 +13,41 @@
         <h1>Cadastro de cliente</h1>
     </header>
     <main>
-        <form id="Formulário">
-            <fieldset>
+        <form class="Formulario">
+            <fieldset >
                 <p>Insira as informações do seu cliente no campo abaixo!!</p>
-              <label id="nome"> Nome: 
-                <input id="name" type="text" placeholder="Digite o nome do cliente" required>
+              <label> Nome: 
+                <input id="nome" class="name" type="text" placeholder="Digite o nome do cliente" required>
               </label>
-              <label id="idade"> Idade:
-                <input id="number" type="number" min="18" max="100" pattern="[0-9]" placeholder="idade" required>
+              <label> Idade:
+                <input id="number" class="idade" type="number" min="18" max="100" pattern="[0-9]" placeholder="idade" required>
               </label>
-              <label id="cpf"> CPF: 
-                <input type="number" placeholder="Digite o CPF do cliente" required>
+              <label> CPF: 
+                <input id="cpf" class="cpf" type="number" placeholder="Digite o CPF do cliente" required>
               </label>   
-              <label id="email"> E-mail: 
-                <input id="email" type="email" placeholder="Digite o email do cliente" required>
+              <label> Email: 
+                <input id="email" class="email" type="email" placeholder="Digite o email do cliente" required>
               </label> 
-              <label id="Endereço"> Endereço:
-                <input type="text" placeholder="Digite o Endereço do cliente" required>
+              <label> Endereço:
+                <input id="Endereço" class="endereço" type="text" placeholder="Digite o Endereço do cliente" required>
               </label>
-              <label id="CEP"> CEP: 
-                <input type="text" placeholder="Digite o CEP do cliente" required>
+              <label> CEP: 
+                <input id="CEP" class="CEP" type="text" placeholder="Digite o CEP do cliente" required>
               </label>
         
               <fieldset>
-                <li>
-                    <ul>Produto 1 - 10$ </ul>
-                    <ul>Produto 2 - 20$ </ul>
-                    <ul>Produto 3 - 30$ </ul>
+                <li class="lista">
+                    <ul class="primeiro">Produto 1 - 10$ </ul>
+                    <ul class="segundo">Produto 2 - 20$ </ul>
+                    <ul class="terceiro">Produto 3 - 30$ </ul>
                 </li>
               </fieldset>
-              <label id="Tipo"> Qual é o produto que ele deseja?  
-                <input type="text" placeholder="insira o produto e o valor" required>
+
+              <label> Qual é o produto que ele deseja?  
+                <input id="Tipo" class="opção" type="text" placeholder="insira o produto e o valor" required>
               </label>
               <label>
-                <input type="button" value="Salvar informações">
+                <input class="botão" type="button" value="Salvar informações">
               </label>
             </fieldset>
             <script src="Form_Cadastro.js"></script>
