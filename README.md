@@ -1,2 +1,2 @@
 # Cadastro_Cliente
- Projeto em andamento
+ Nesse projeto, apliquei novos conhecimento de javascript e reforcei os apredizados em CSS
